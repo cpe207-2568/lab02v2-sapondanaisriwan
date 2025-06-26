@@ -4,6 +4,170 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/experience.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <!-- Header -->
+      <header>
+        <nav>
+          <div>
+            <div class="">
+              <a href="#home">
+                <i data-lucide="house"></i>
+                Home</a
+              >
+            </div>
+          </div>
+          <div>
+            <a href="#experience">
+              <i data-lucide="user-round"></i>
+              Experience</a
+            >
+          </div>
+          <div>
+            <a href="#contact">
+              <i data-lucide="phone"></i>
+
+              Contact</a
+            >
+          </div>
+        </nav>
+      </header>
+      <!-- Content -->
+      <section id="home">
+        <!-- Left content -->
+        <div class="title">
+          <h1 class="typewriter" style="padding-bottom: 16px">Hello world!</h1>
+
+          <p style="font-size: 24px">
+            I'm Sapondanai Sriwan, an average high school student who enjoys
+            programming and building projects that spark my interest.
+          </p>
+          <p style="font-size: 24px; margin-top: 12px">Contact: sapondanaisriwan@gmail.com</p>
+        </div>
+        <!-- Right content -->
+        <div class="profile">
+          <img src="./img/me.jpg" alt="profile" />
+        </div>
+      </section>
+
+      <section id="experience">
+        <h2 style="padding: 32px">🚀 Experience</h2>
+        <div style="display: flex; flex-direction: column; gap: 6rem">
+          <div style="display: flex; gap: 24px">
+            <!-- Left content -->
+            <div style="width: 50%">
+              <img
+                src="./img/row-fixer.png"
+                alt="row-fixer"
+                style="width: 100%; border-radius: 16px"
+              />
+            </div>
+            <!-- Right content -->
+            <div
+              style="
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 32px;
+              "
+            >
+              <h3 style="font-size: 32px; padding: 8px">YouTube Row Fixer</h3>
+              <p style="font-size: 24px">
+                Introducing YouTube Row Fixer, a convenient browser extension
+                empowering user to personalize the layout of the YouTube website
+                by adjusting the number of videos showcased in each row. Tailor
+                your viewing experience to suit your preferences effortlessly.
+              </p>
+            </div>
+          </div>
+          <div style="display: flex; gap: 24px; flex-direction: row-reverse">
+            <!-- Left content -->
+            <div style="width: 50%">
+              <img
+                src="./img/quick-arrow.png"
+                alt="row-fixer"
+                style="width: 100%; border-radius: 16px"
+              />
+            </div>
+            <!-- Right content -->
+            <div
+              style="
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 32px;
+              "
+            >
+              <h3 style="font-size: 32px; padding: 8px">
+                Quick Arrow Snippets
+              </h3>
+              <p style="font-size: 24px">
+                A VSCode extension that offers offers a convenient assortment of
+                arrow function snippets crafted to elevate your coding workflow.
+                These snippets are customized for swift integration into your
+                codebase, enabling you to craft succinct and effective arrow
+                functions effortlessly, eliminating the repetition of standard
+                formats.
+              </p>
+            </div>
+          </div>
+          <div style="display: flex; gap: 24px">
+            <!-- Left content -->
+            <div style="width: 50%">
+              <img
+                src="./img/hide-short.png"
+                alt="row-fixer"
+                style="width: 100%; border-radius: 16px"
+              />
+            </div>
+            <!-- Right content -->
+            <div
+              style="
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 32px;
+              "
+            >
+              <h3 style="font-size: 32px; padding: 8px">YouTube Hide Shorts</h3>
+              <p style="font-size: 24px">
+                This Chrome extension lets you effortlessly hide all Shorts from
+                YouTube, giving you a cleaner, distraction-free browsing
+                experience. Whether you're here for long-form content,
+                tutorials, or deep dives, this tool helps you take control of
+                your viewing experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" style="margin-top: 128px; margin-bottom: 64px">
+        <h2 style="padding: 32px; text-align: center">📞 Contact</h2>
+        <div style="font-size: 24px">
+          <div style="text-align: center; margin-bottom: 8px">
+            <a href="mailto:sapondanai_sriwan@cmu.ac.th"
+              >📨 | sapondanaisriwan@gmail.com</a
+            >
+          </div>
+          <p style="text-align: center">Tel: 666-666-6666</p>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+  </body>
 </html>
